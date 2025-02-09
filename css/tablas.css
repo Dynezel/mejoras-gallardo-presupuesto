@@ -1,25 +1,38 @@
-table, th, td {
-    border: 1px solid white;
+table,
+th,
+td {
+  border: 1px solid white;
 }
 .restante {
-    color:rgb(227, 135, 15)
+  color: rgb(227, 135, 15);
 }
 .ingresos {
-    color:rgb(1, 199, 1);
+  color: rgb(1, 199, 1);
 }
 .egresos {
-    color: red;
+  color: red;
 }
 .total {
-    color:rgb(255, 213, 0);
+  color: rgb(255, 213, 0);
 }
 .table {
-    width: 100%;
-    border-collapse: collapse;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px; /* Reduce el tamaño del texto en móviles */
   }
-  
-  .table th, .table td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid #ddd;
+
+  .table th,
+  .table td {
+    padding: 4px; /* Reduce el espacio dentro de las celdas */
   }
+}
