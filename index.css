@@ -2,6 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 20px;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -25,7 +26,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  min-width: 300px;
+  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -53,3 +54,9 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+@media (max-width: 768px) {
+  .table {
+    font-size: 14px; /* Reduce el tamaño de la fuente */
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  }
+}

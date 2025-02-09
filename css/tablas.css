@@ -1,0 +1,25 @@
+table, th, td {
+    border: 1px solid white;
+}
+.restante {
+    color:rgb(227, 135, 15)
+}
+.ingresos {
+    color:rgb(1, 199, 1);
+}
+.egresos {
+    color: red;
+}
+.total {
+    color:rgb(255, 213, 0);
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
