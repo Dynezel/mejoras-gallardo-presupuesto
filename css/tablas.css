@@ -26,12 +26,10 @@ td {
   text-align: left;
   border: 1px solid #ddd;
 }
-@media (max-width: 768px) {
-  .table {
-    font-size: 14px; /* O el tamaño que mejor se ajuste */
-  }
-  .table th,
-  .table td {
-    padding: 4px;
-  }
+@media (max-width:765px){
+    .table {
+        max-width  :100vw;  
+        width      :100vw; 
+        font-size  :5vw;  
+    }
 }
