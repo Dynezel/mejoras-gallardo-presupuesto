@@ -3,8 +3,8 @@ import "../css/tablas.css";
 
 export default function Febrero() {
   return (
-    <div style={{ width: "100%" }}>
-      <table className="table">
+    <div>
+      <table>
         <tr>
           <th>Fecha</th>
           <th>Detalles</th>
